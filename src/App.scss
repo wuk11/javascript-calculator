@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+  background-color: gray;
+  width: 250px;
+  height: 350px;
+  margin: auto;
+  margin-top: 200px;
+  #screen{
+    background-color: black;
+    width: 250px;
+    margin: auto;
+  }
+  #screen *{
+    height: 25px;
+    color: white;
+  }
+  #keys{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content:flex-start;
+    margin: auto;
+  }
+  #keys *{
+    padding: 10px;
+    background-color: lightsteelblue;
+    width: 25%;
+    height: 50px;
+  }
+}
+body{
+  background-color: lightgoldenrodyellow;
+}
